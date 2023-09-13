@@ -1,8 +1,8 @@
 const int trigPin = 4;
 const int echoPin = 5;
 
-int inches = 0;
-int cm = 0;
+float inches = 0;
+float cm = 0;
 
 long readUltrasonicDistance(int trigPin, int echoPin)
 {
